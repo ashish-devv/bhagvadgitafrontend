@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/bhagvadgitafrontend/static/css/main.e2d84604.chunk.css",
-    "main.js": "/bhagvadgitafrontend/static/js/main.fbbf85ff.chunk.js",
-    "main.js.map": "/bhagvadgitafrontend/static/js/main.fbbf85ff.chunk.js.map",
+    "main.js": "/bhagvadgitafrontend/static/js/main.31d8e406.chunk.js",
+    "main.js.map": "/bhagvadgitafrontend/static/js/main.31d8e406.chunk.js.map",
     "runtime-main.js": "/bhagvadgitafrontend/static/js/runtime-main.d2f864b6.js",
     "runtime-main.js.map": "/bhagvadgitafrontend/static/js/runtime-main.d2f864b6.js.map",
     "static/css/2.6f90d145.chunk.css": "/bhagvadgitafrontend/static/css/2.6f90d145.chunk.css",
@@ -20,6 +20,6 @@
     "static/css/2.6f90d145.chunk.css",
     "static/js/2.2466c2b3.chunk.js",
     "static/css/main.e2d84604.chunk.css",
-    "static/js/main.fbbf85ff.chunk.js"
+    "static/js/main.31d8e406.chunk.js"
   ]
 }
