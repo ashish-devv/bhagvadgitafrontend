@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/bhagvadgitafrontend/static/css/main.e2d84604.chunk.css",
+    "main.js": "/bhagvadgitafrontend/static/js/main.fbbf85ff.chunk.js",
+    "main.js.map": "/bhagvadgitafrontend/static/js/main.fbbf85ff.chunk.js.map",
+    "runtime-main.js": "/bhagvadgitafrontend/static/js/runtime-main.d2f864b6.js",
+    "runtime-main.js.map": "/bhagvadgitafrontend/static/js/runtime-main.d2f864b6.js.map",
+    "static/css/2.6f90d145.chunk.css": "/bhagvadgitafrontend/static/css/2.6f90d145.chunk.css",
+    "static/js/2.2466c2b3.chunk.js": "/bhagvadgitafrontend/static/js/2.2466c2b3.chunk.js",
+    "static/js/2.2466c2b3.chunk.js.map": "/bhagvadgitafrontend/static/js/2.2466c2b3.chunk.js.map",
+    "index.html": "/bhagvadgitafrontend/index.html",
+    "static/css/2.6f90d145.chunk.css.map": "/bhagvadgitafrontend/static/css/2.6f90d145.chunk.css.map",
+    "static/css/main.e2d84604.chunk.css.map": "/bhagvadgitafrontend/static/css/main.e2d84604.chunk.css.map",
+    "static/js/2.2466c2b3.chunk.js.LICENSE.txt": "/bhagvadgitafrontend/static/js/2.2466c2b3.chunk.js.LICENSE.txt",
+    "static/media/524 [Converted].55c35221.svg": "/bhagvadgitafrontend/static/media/524 [Converted].55c35221.svg",
+    "static/media/bhagavad-gita.e3a2b573.png": "/bhagvadgitafrontend/static/media/bhagavad-gita.e3a2b573.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d2f864b6.js",
+    "static/css/2.6f90d145.chunk.css",
+    "static/js/2.2466c2b3.chunk.js",
+    "static/css/main.e2d84604.chunk.css",
+    "static/js/main.fbbf85ff.chunk.js"
+  ]
+}
