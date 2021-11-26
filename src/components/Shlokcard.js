@@ -8,12 +8,14 @@ export default class Shlokcard extends Component {
         data-aos="fade-left"
         data-aos-duration={2000}
       >
-        <div className="card-header text-center">Shlok Of The Day</div>
+        <div className="card-header text-center">
+          {this.props.t ? "श्लोक" : "आज का श्लोक"}
+        </div>
         <div className="card-body mt-4 pt-4">
           <div className="card-text">
             {this.props.loading ? (
               <p className="text-center">
-                <i class="fas fa-spinner fa-2x fa-spin"></i>
+                <i className="fas fa-spinner fa-2x fa-spin"></i>
               </p>
             ) : (
               <figure className="text-center">
@@ -31,6 +33,14 @@ export default class Shlokcard extends Component {
                   <cite title="Source Title">
                     Chapter &nbsp; {this.props.data.chapter} .{" "}
                     {this.props.data.verse}
+                    <hr />
+                    <button className="btn btn-outline-success">
+                      <i className="fab fa-whatsapp-square fa-2x"></i>
+                    </button>
+                    &nbsp;
+                    <button className="btn btn-outline-primary">
+                      <i className="fab fa-facebook-square fa-2x"></i>
+                    </button>
                   </cite>
                 </figcaption>
               </figure>

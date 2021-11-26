@@ -17,7 +17,7 @@ export default class Main extends Component {
   }
   getShlok() {
     this.setState({ loading: true });
-    fetch("http://localhost/gita")
+    fetch("https://bhagvadgita.herokuapp.com/gita")
       .then((response) => {
         if (!response.ok) {
           this.setState({ loading: false });
@@ -41,7 +41,7 @@ export default class Main extends Component {
           <div className="col-sm-6">
             <img
               src={image}
-              className="img-fluid"
+              className="img-fluid cardshadow"
               alt=""
               height="70%"
               data-aos="fade-right"
@@ -52,7 +52,7 @@ export default class Main extends Component {
           <div className="col-sm-6">
             <h1 className="display-1 text-center mt-4">
               <img src={logo} alt="" width={60} height={60} />
-              Bhagavad Gita
+              श्रीमद्‍भगवद्‍गीता
             </h1>
             <Shlokcard data={this.state.data} loading={this.state.loading} />
             <p
