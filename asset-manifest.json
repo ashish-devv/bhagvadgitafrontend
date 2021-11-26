@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/bhagvadgitafrontend/static/css/main.43fa2d4a.chunk.css",
-    "main.js": "/bhagvadgitafrontend/static/js/main.ad2ea319.chunk.js",
-    "main.js.map": "/bhagvadgitafrontend/static/js/main.ad2ea319.chunk.js.map",
+    "main.js": "/bhagvadgitafrontend/static/js/main.6e35e778.chunk.js",
+    "main.js.map": "/bhagvadgitafrontend/static/js/main.6e35e778.chunk.js.map",
     "runtime-main.js": "/bhagvadgitafrontend/static/js/runtime-main.d2f864b6.js",
     "runtime-main.js.map": "/bhagvadgitafrontend/static/js/runtime-main.d2f864b6.js.map",
     "static/css/2.6f90d145.chunk.css": "/bhagvadgitafrontend/static/css/2.6f90d145.chunk.css",
-    "static/js/2.72bc838a.chunk.js": "/bhagvadgitafrontend/static/js/2.72bc838a.chunk.js",
-    "static/js/2.72bc838a.chunk.js.map": "/bhagvadgitafrontend/static/js/2.72bc838a.chunk.js.map",
+    "static/js/2.e1027ab5.chunk.js": "/bhagvadgitafrontend/static/js/2.e1027ab5.chunk.js",
+    "static/js/2.e1027ab5.chunk.js.map": "/bhagvadgitafrontend/static/js/2.e1027ab5.chunk.js.map",
     "index.html": "/bhagvadgitafrontend/index.html",
     "static/css/2.6f90d145.chunk.css.map": "/bhagvadgitafrontend/static/css/2.6f90d145.chunk.css.map",
     "static/css/main.43fa2d4a.chunk.css.map": "/bhagvadgitafrontend/static/css/main.43fa2d4a.chunk.css.map",
-    "static/js/2.72bc838a.chunk.js.LICENSE.txt": "/bhagvadgitafrontend/static/js/2.72bc838a.chunk.js.LICENSE.txt",
+    "static/js/2.e1027ab5.chunk.js.LICENSE.txt": "/bhagvadgitafrontend/static/js/2.e1027ab5.chunk.js.LICENSE.txt",
     "static/media/524 [Converted].55c35221.svg": "/bhagvadgitafrontend/static/media/524 [Converted].55c35221.svg",
+    "static/media/5571946.b68c9c12.svg": "/bhagvadgitafrontend/static/media/5571946.b68c9c12.svg",
     "static/media/Ashish.51d75a3f.jpeg": "/bhagvadgitafrontend/static/media/Ashish.51d75a3f.jpeg",
     "static/media/ExpressJS.6a3e055a.png": "/bhagvadgitafrontend/static/media/ExpressJS.6a3e055a.png",
     "static/media/bhagavad-gita.e3a2b573.png": "/bhagvadgitafrontend/static/media/bhagavad-gita.e3a2b573.png",
@@ -21,8 +22,8 @@
   "entrypoints": [
     "static/js/runtime-main.d2f864b6.js",
     "static/css/2.6f90d145.chunk.css",
-    "static/js/2.72bc838a.chunk.js",
+    "static/js/2.e1027ab5.chunk.js",
     "static/css/main.43fa2d4a.chunk.css",
-    "static/js/main.ad2ea319.chunk.js"
+    "static/js/main.6e35e778.chunk.js"
   ]
 }
