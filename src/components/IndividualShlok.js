@@ -26,7 +26,11 @@ export default class IndividualShlok extends Component {
       47, 72, 43, 42, 29, 47, 30, 28, 34, 42, 55, 20, 35, 27, 20, 24, 28, 78,
     ];
     console.log(chapternum, this.state.shlokverse);
-    if (this.state.shlokverse < a[chapternum - 1]) {
+    if (
+      this.state.shlokverse < a[chapternum - 1] &&
+      chapternum > 0 &&
+      chapternum <= 18
+    ) {
       this.setState({
         shlokverse: parseInt(this.state.shlokverse) + 1,
       });

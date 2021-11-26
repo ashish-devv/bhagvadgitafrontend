@@ -18,3 +18,7 @@
   box-shadow: 0 19px 38px rgba(218, 58, 9, 0.349),
     0 15px 12px rgba(0, 0, 0, 0.22);
 }
+
+body {
+  overflow-x: hidden;
+}
