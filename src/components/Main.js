@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 import image from "../images/524 [Converted].svg";
 import logo from "../images/bhagavad-gita.png";
 import Shlokcard from "./Shlokcard";
@@ -65,6 +66,10 @@ export default class Main extends Component {
               >
                 <i className="fas fa-sync fa-spin" /> Another Shlok
               </button>
+              <br />
+              <Link to="/moreshlok" className="btn btn-outline-danger">
+                Read Shlok From Another Chapters
+              </Link>
             </p>
           </div>
         </div>

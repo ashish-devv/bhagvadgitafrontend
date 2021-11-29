@@ -12,7 +12,9 @@ export default class About extends Component {
       <div className="container">
         <div className="row">
           <div className="col-md-4">
-            <h1 className="text-center">Developed By 👇</h1>
+            <h1 className="text-center" id="top">
+              Developed By 👇
+            </h1>
             <div className="card border-dark">
               <img src={Ashish} className="card-img-top" alt="..." />
               <div className="card-body">

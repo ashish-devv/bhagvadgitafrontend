@@ -1,11 +1,14 @@
 import React, { Component } from "react";
+import { Link } from "react-router-dom";
 
 export default class Footer extends Component {
   render() {
     return (
       <footer className="page-footer font-small blue pt-4">
         <div className="footer-copyright text-center py-3">
-          © 2020 Copyright: Made With 💖 By Ashish &nbsp;&nbsp;&nbsp;
+          © 2020 Copyright: Made With 💖 By
+          <Link to="/about#top">Ashish</Link>
+          &nbsp;&nbsp;&nbsp;
           <br />
           <a
             href="https://www.linkedin.com/in/ashishkrshu/"
