@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Shlokcard from "./Shlokcard";
 import photo from "../images/5571946.svg";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 export default class IndividualShlok extends Component {
   constructor(props) {

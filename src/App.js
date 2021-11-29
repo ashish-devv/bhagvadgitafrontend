@@ -8,6 +8,7 @@ import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import About from "./components/About";
 import Moresholk from "./components/Moresholk";
 import IndividualShlok from "./components/IndividualShlok";
+import Footer from "./components/Footer";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -27,6 +28,7 @@ function App() {
             component={IndividualShlok}
           />
         </Switch>
+        <Footer />
       </div>
     </Router>
   );

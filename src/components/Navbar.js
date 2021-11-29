@@ -54,7 +54,16 @@ export default class Navbars extends Component {
         </nav> */}
         <Navbar collapseOnSelect expand="lg">
           <Container>
-            <Navbar.Brand href="#home">Bhagavad Gita</Navbar.Brand>
+            <Navbar.Brand href="#home">
+              <img
+                alt=""
+                src={logo}
+                width="30"
+                height="30"
+                className="d-inline-block align-top"
+              />{" "}
+              Bhagavad Gita
+            </Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="ms-auto">
