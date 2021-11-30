@@ -31,6 +31,22 @@ export default class Footer extends Component {
           >
             <i class="fab fa-facebook fa-2x"></i>
           </a>
+          &nbsp;&nbsp;&nbsp;
+          <br />
+          <br />
+          <a
+            className="btn btn-outline-primary"
+            href="https://github.com/ashish-devv/bhagvadgitafrontend"
+          >
+            <i class="fab fa-github "></i> Frontend Source Code{" "}
+          </a>
+          <br />
+          <a
+            className="btn btn-outline-primary"
+            href="https://github.com/ashish-devv/bhagvadgitabackend"
+          >
+            <i class="fab fa-github "></i> Backend Source Code{" "}
+          </a>
         </div>
       </footer>
     );
