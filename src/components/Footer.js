@@ -47,6 +47,16 @@ export default class Footer extends Component {
           >
             <i class="fab fa-github "></i> Backend Source Code{" "}
           </a>
+          <p className="mt-5 mb-3 text-muted">
+            <a href="https://www.hitwebcounter.com">
+              <img
+                src="https://hitwebcounter.com/counter/counter.php?page=7917069&style=0010&nbdigits=6&type=page&initCount=101"
+                title="Free Counter"
+                Alt="web counter"
+                border="0"
+              />
+            </a>
+          </p>
         </div>
       </footer>
     );

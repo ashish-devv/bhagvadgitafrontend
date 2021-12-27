@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Ashish from "../images/Ashish.jpeg";
+import Badal from "../images/badal.jpg";
 import node from "../images/node-js-1174925.png";
 import express from "../images/ExpressJS.png";
 import mongodb from "../images/mongodb-226029.png";
@@ -36,6 +37,34 @@ export default class About extends Component {
                   &nbsp;
                   <a
                     href="https://github.com/ashish-devv/"
+                    className="btn btn-outline-dark"
+                  >
+                    Github <i class="fab fa-github"></i>
+                  </a>
+                </p>
+              </div>
+            </div>
+            <div className="card border-dark mt-1">
+              <img src={Badal} className="card-img-top" alt="..." />
+              <div className="card-body">
+                <h3 className="card-title">Badal Shukla</h3>
+                <p className="card-text mt-3">
+                  <a
+                    href="https://www.linkedin.com/in/badal-shukla-555992192"
+                    className="btn btn-outline-primary"
+                  >
+                    LinkedIn <i class="fab fa-linkedin-in"></i>
+                  </a>
+                  &nbsp;
+                  <a
+                    href="https://www.facebook.com/badal.shukla.94"
+                    className="btn btn-outline-primary"
+                  >
+                    facebook <i class="fab fa-facebook-f"></i>
+                  </a>
+                  &nbsp;
+                  <a
+                    href="https://github.com/badalshukla"
                     className="btn btn-outline-dark"
                   >
                     Github <i class="fab fa-github"></i>
