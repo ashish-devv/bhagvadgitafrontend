@@ -7,7 +7,7 @@ export default class Footer extends Component {
       <footer className="page-footer font-small blue pt-4">
         <div className="footer-copyright text-center py-3">
           © 2020 Copyright: Made With 💖 By
-          <Link to="/about#top">Ashish</Link>
+          <Link to="/about#top">Ashish and Badal</Link>
           &nbsp;&nbsp;&nbsp;
           <br />
           <a
