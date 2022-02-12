@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import image from "../images/524 [Converted].svg";
 import logo from "../images/bhagavad-gita.png";
 import Shlokcard from "./Shlokcard";
+import audio from "../static/Atma Rama Ananda Ramana ( Full Song ).mp3";
 
 export default class Main extends Component {
   constructor(props) {
@@ -10,11 +11,30 @@ export default class Main extends Component {
     this.state = {
       loading: true,
       data: [],
+      audio: new Audio(audio),
+      isPlaying: false,
     };
     this.getShlok = this.getShlok.bind(this);
+    this.playPause = this.playPause.bind(this);
   }
+  playPause = () => {
+    // Get state of song
+    let isPlaying = this.state.isPlaying;
+
+    if (isPlaying) {
+      // Pause the song if it is playing
+      this.state.audio.pause();
+    } else {
+      // Play the song if it is paused
+      this.state.audio.play();
+    }
+
+    // Change the state of song
+    this.setState({ isPlaying: !isPlaying });
+  };
   componentDidMount() {
     this.getShlok();
+    this.playPause();
   }
   getShlok() {
     this.setState({ loading: true });
@@ -70,6 +90,15 @@ export default class Main extends Component {
               <Link to="/moreshlok" className="btn btn-outline-danger">
                 Read Shlok From Another Chapters
               </Link>
+
+              <br />
+              {/* play button */}
+              <button
+                className="btn btn-outline-success"
+                onClick={this.playPause}
+              >
+                <i className="fas fa-play" /> Play | Pause Audio
+              </button>
             </p>
           </div>
         </div>
