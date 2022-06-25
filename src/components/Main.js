@@ -32,9 +32,19 @@ export default class Main extends Component {
     // Change the state of song
     this.setState({ isPlaying: !isPlaying });
   };
+  // execute after component is mounted
+  // componentDidMount() {
+  //   this.getShlok();
+  // }
   componentDidMount() {
     this.getShlok();
-    this.playPause();
+    // eslint-disable-next-line no-restricted-globals
+    const y = confirm("Do you want to hear the Audio?");
+    if (y) {
+      this.playPause();
+    } else {
+      this.playPause();
+    }
   }
   getShlok() {
     this.setState({ loading: true });
