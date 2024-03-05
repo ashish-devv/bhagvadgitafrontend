@@ -67,7 +67,7 @@ export default class IndividualShlok extends Component {
   getshlok() {
     this.setState({ loading: true });
     fetch(
-      `https://bhagvadgita.herokuapp.com/gita/${this.state.shlokchapters}/${this.state.shlokverse}`
+      `https://bhagvadgitabackend.onrender.com/gita/${this.state.shlokchapters}/${this.state.shlokverse}`
     )
       .then((response) => {
         if (!response.ok) {

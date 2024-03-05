@@ -14,7 +14,7 @@ export default class Moresholk extends Component {
     this.getallchapters();
   }
   getallchapters() {
-    fetch("https://bhagvadgita.herokuapp.com/gita/chapters")
+    fetch("https://bhagvadgitabackend.onrender.com/gita/chapters")
       .then((res) => res.json())
       .then(
         (result) => {

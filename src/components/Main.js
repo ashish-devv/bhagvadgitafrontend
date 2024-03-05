@@ -48,7 +48,7 @@ export default class Main extends Component {
   }
   getShlok() {
     this.setState({ loading: true });
-    fetch("https://bhagvadgita.herokuapp.com/gita")
+    fetch("https://bhagvadgitabackend.onrender.com/gita")
       .then((response) => {
         if (!response.ok) {
           this.setState({ loading: false });
